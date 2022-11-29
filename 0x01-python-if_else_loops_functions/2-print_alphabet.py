@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print("{}".format(chr(i)), end='')
+for ascii_code in range(97, 123):
+
+    # Print out the character format of the ascii_code
+    print("{:c}".format(ascii_code), end='')
