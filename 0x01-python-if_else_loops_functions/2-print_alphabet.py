@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for ascii_code in range(97, 123):
+"""Print the alphabet in lowercase, not followed by a new line."""
 
-    # Print out the character format of the ascii_code
-    print("{:c}".format(ascii_code), end='')
+for letter in range(97, 123):
+    print("{}".format(chr(letter)), end="")
